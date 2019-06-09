@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Water Usage Calculator</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Hind&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="topContainer">
+    <h1 class="Water">How much water do you use?</h1>
+  </div>
+
+  <div class="middle-Container">
+    <h3>
+      Here is where you can track your water usage and then get tips according to what you input!
+    </h3>
+    <img class="catDrinking" src="https://media.giphy.com/media/63whWnKaTj0Tm/giphy.gif" alt="cat drinking water">
+
+  </div>
+
+  <hr>
+
+  <h3>
+    Please answer the following questions...
+  </h3>
+  <p>Each answer should be in minutes (approximately)... </p>
+  <br>
+  <script>
+    var res;
+    function calcAdd() {
+      var n1 = parseInt(document.getElementById('n1').value);
+      var n2 = parseInt(document.getElementById('n2').value);
+      var n3 = parseInt(document.getElementById('n3').value);
+      var n4 = parseInt(document.getElementById('n4').value);
+
+      res =  n1 + n2 + n3 + n4;
+
+      document.getElementById('res').value = n1 + n2 + n3 + n4;
+    }
+    function boolRes(){
+      var answer1 = "Alright! Try to make sure that you're minimizing the amount of time you leave the faucet running!";
+      var answer2 = "Hmm... you can do better! Try to take shorter showers. Many people like to play music while they're in the shower and then take an upwards of 30 to 45 minutes! Keep the distractions out of your way and you should be well on your way to be sustainable.";
+      var answer3 = "Great! Keep doing what you're doing";
+
+      if(res < 160){
+        document.getElementById("demo").innerHTML ="Great! Keep doing what you're doing";
+      }else if(160 <= res && res <= 180){
+        document.getElementById("demo").innerHTML =answer1;
+      }else{
+        document.getElementById("demo").innerHTML =answer2;
+      }
+
+    }
+  </script>
+
+
+  <table align = "center">
+    <tr>
+      <td>How long is your average shower?</td>
+      <td><input type="text" id="n1"></td>
+    </tr>
+    <tr>
+      <td>How long does it take you to do your laundry?</td>
+      <td><input type="text" id="n2"></td>
+    </tr>
+    <tr>
+      <td>How long do you leave your faucets running each day?</td>
+      <td><input type="text" id="n3"></td>
+    </tr>
+    <tr>
+      <td>How much time do you spend washing your dishes</td>
+      <td><input type="text" id="n4"></td>
+    </tr>
+  </table>
+
+
+  <button class="button" onclick="calcAdd();">Totals Minutes</button>
+  <input class="answer" type="text" id="res">
+
+
+
+  <button class="button" type="button" onclick="boolRes(res)">Click here for Tips!</button>
+  <p id="demo"></p>
+  <hr>
+
+  <div class="bottomContainer">
+    @2019 Hack Hunterdon
+  </div>
+
+</body>
+
+</html>
