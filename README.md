@@ -24,3 +24,8 @@ Calculates how harmful an individual's water usage is based on how many minutes 
 * Basic JavaScript properties and attributes
 * Inline JavaScript coding
 * Using a gradient for a background
+
+#### How to run it
+* download the zip file
+* extract all files
+* open up the index.html file in your web browser
