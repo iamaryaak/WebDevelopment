@@ -23,6 +23,7 @@ Calculates how harmful an individual's water usage is based on how many minutes 
 #### What I learned
 * Basic JavaScript properties and attributes
 * Inline JavaScript coding
+** Function usage
 * Using a gradient for a background
 
 #### How to run it
