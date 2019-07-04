@@ -1,6 +1,6 @@
-# fun-projects
+# Web Development 
 
-## 1) Personal Site 
+## 1) Personal Site (Version 1) 
 
 * built using Atom
 
