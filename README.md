@@ -30,3 +30,18 @@ Calculates how harmful an individual's water usage is based on how many minutes 
 * download the zip file
 * extract all files
 * open up the index.html file in your web browser
+
+## 3) TinDog Example Site
+
+Provided by LondonAppBrewery
+
+* built using Atom
+
+* Languages - HTML, CSS, Bootstrap, JavaScript
+
+#### What I learned
+* Bootstrap Properties
+ * Grid System
+ * Containers and how to manipulate them
+ * Carousel (Automated vs Manual)
+ * Z-index and Stacking Order
