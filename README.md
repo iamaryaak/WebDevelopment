@@ -42,7 +42,8 @@ Provided by LondonAppBrewery
 #### What I learned
 
 Bootstrap Properties ... 
-* Grid System
-* Containers and how to manipulate them
+* Making Layouts
+  * Grid System
+  * Containers and how to manipulate them
 * Carousel (Automated vs Manual)
 * Z-index and Stacking Order
