@@ -40,8 +40,9 @@ Provided by LondonAppBrewery
 * Languages - HTML, CSS, Bootstrap, JavaScript
 
 #### What I learned
-* Bootstrap Properties
- * Grid System
- * Containers and how to manipulate them
- * Carousel (Automated vs Manual)
- * Z-index and Stacking Order
+
+Bootstrap Properties ... 
+* Grid System
+* Containers and how to manipulate them
+* Carousel (Automated vs Manual)
+* Z-index and Stacking Order
