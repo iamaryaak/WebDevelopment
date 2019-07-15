@@ -32,7 +32,7 @@ Calculates how harmful an individual's water usage is based on how many minutes 
 * open up the index.html file in your web browser
 
 ## 3) TinDog Example Site
-
+![TinDog Site Screenshot](https://raw.githubusercontent.com/iamaryaak/WebDevelopment/master/TinDog-Start-master/Screen%20Shot%202019-07-15%20at%2010.32.22%20AM.png)
 Provided by LondonAppBrewery
 
 * built using Atom
