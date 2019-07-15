@@ -37,7 +37,7 @@ Provided by LondonAppBrewery
 
 * built using Atom
 
-* Languages - HTML, CSS, Bootstrap, JavaScript
+* Languages - HTML, CSS, Bootstrap 4, JavaScript
 
 #### What I learned
 
