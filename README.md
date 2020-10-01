@@ -18,6 +18,9 @@ First draft of my personal website.
 
 * Languages - HTML, CSS, JavaScript
 
+* CSS Properties
+ Various attributes and properties of CSS has used in making this website like pseudo-selectors,CSS variables,etc 
+
 Calculates how harmful an individual's water usage is based on how many minutes they spend wasting it. 
 
 #### What I learned
