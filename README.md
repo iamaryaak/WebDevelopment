@@ -4,9 +4,11 @@
 
 * built using Atom
 
-* Languages - HTML, CSS
+* Languages - HTML, CSS 
 
-First draft of my personal website.
+* This served as an intro to creating web pages.
+
+First draft of my personal website. (now deleted
 
 #### What I learned
 * Basic HTML properties and attributes
